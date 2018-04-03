@@ -9,6 +9,7 @@
     "actionIncomplete": false,
     "parameters": {
       "propertyType": "Apartment",
+      "typeCheck": "getProperty",
       "propertyConfig": "3bhk",
       "city": "Bangalore",
       "ownMethod": "buy",
