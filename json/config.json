@@ -1,0 +1,16 @@
+{
+  "collection" : [
+    {
+        "name" : "property",
+        "type" : "propertyType",
+        "cost" : "budget",
+        "city" : "city",
+        "ownMethod" : "ownMethod",
+        "family" : "family",
+        "companyName": "companyName",
+        "locality": "locality",
+        "config" : "propertyConfig"
+
+    }]
+
+  }

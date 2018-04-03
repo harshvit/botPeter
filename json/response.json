@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "buttons": [
+        {
+          "openUrlAction": {
+            "url": "https://google.com"
+          },
+          "title": "AoG Card Link title"
+        }
+      ],
+      "formattedText": "AoG Card Description",
+      "image": {
+        "url": "http://media.equityapartments.com/images/q_50/f_auto/fl_lossy/4206-28/the-kelvin-apartments-exterior"
+      },
+      "platform": "google",
+      "subtitle": "AoG Card Subtitle",
+      "title": "AoG Card Title",
+      "type": "basic_card"
+    }
+  ]
+}

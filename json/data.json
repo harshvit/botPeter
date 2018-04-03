@@ -1,0 +1,166 @@
+{
+  "id": "a8c28d7b-1d0a-48b0-ad7a-a37da457a143",
+  "timestamp": "2018-04-02T09:56:37.282Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "3bhk",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "propertyType": "Apartment",
+      "propertyConfig": "3bhk",
+      "city": "Bangalore",
+      "ownMethod": "buy",
+      "budget": 280000,
+      "family": "yes",
+      "locality": {
+        "subadmin-area": "JP Nagar"
+      },
+      "companyName": "JP morgan"
+    },
+    "contexts": [
+      {
+        "name": "no_family",
+        "parameters": {
+          "city": "Bangalore",
+          "companyName": "JP morgan",
+          "locality": {
+            "subadmin-area": "JP Nagar",
+            "subadmin-area.original": "jp nagar"
+          },
+          "city.original": "",
+          "number.original": "180k",
+          "companyName.original": "",
+          "propertyConfig": "3bhk",
+          "number": [
+            180000
+          ],
+          "propertyType.original": "",
+          "propertyConfig.original": "3bhk",
+          "ownMethod": "buy",
+          "propertyType": "Apartment",
+          "family.original": "",
+          "locality.original": "",
+          "family": "yes",
+          "ownMethod.original": "",
+          "budget.original": "",
+          "budget": 180000
+        },
+        "lifespan": 2
+      },
+      {
+        "name": "companyname",
+        "parameters": {
+          "city": "Bangalore",
+          "companyName": "JP morgan",
+          "locality": {
+            "subadmin-area": "JP Nagar",
+            "subadmin-area.original": "jp nagar"
+          },
+          "city.original": "",
+          "companyName.original": "",
+          "propertyConfig": "3bhk",
+          "propertyType.original": "",
+          "propertyConfig.original": "3bhk",
+          "ownMethod": "buy",
+          "propertyType": "Apartment",
+          "family.original": "",
+          "locality.original": "",
+          "family": "yes",
+          "budget.original": "",
+          "ownMethod.original": "",
+          "budget": 180000
+        },
+        "lifespan": 3
+      },
+      {
+        "name": "requiredparams",
+        "parameters": {
+          "city": "Bangalore",
+          "geo-city": "Bangalore",
+          "companyName": "JP morgan",
+          "locality": {
+            "subadmin-area": "JP Nagar",
+            "subadmin-area.original": "jp nagar"
+          },
+          "city.original": "",
+          "number.original": "180k",
+          "companyName.original": "",
+          "propertyConfig": "3bhk",
+          "number": [
+            180000
+          ],
+          "location.original": "jp nagar",
+          "propertyType.original": "",
+          "propertyConfig.original": "3bhk",
+          "family.original": "",
+          "propertyType": "Apartment",
+          "ownMethod": "buy",
+          "locality.original": "",
+          "location": {
+            "subadmin-area": "JP Nagar",
+            "subadmin-area.original": "jp nagar"
+          },
+          "geo-city.original": "bangalore",
+          "family": "yes",
+          "budget.original": "",
+          "ownMethod.original": "",
+          "budget": 180000
+        },
+        "lifespan": 25
+      },
+      {
+        "name": "yes_family",
+        "parameters": {
+          "city": "Bangalore",
+          "companyName": "JP morgan",
+          "locality": {
+            "subadmin-area": "JP Nagar",
+            "subadmin-area.original": "jp nagar"
+          },
+          "city.original": "",
+          "number.original": "180k",
+          "companyName.original": "",
+          "propertyConfig": "3bhk",
+          "number": [
+            180000
+          ],
+          "propertyType.original": "",
+          "propertyConfig.original": "3bhk",
+          "ownMethod": "buy",
+          "propertyType": "Apartment",
+          "family.original": "",
+          "locality.original": "",
+          "family": "yes",
+          "ownMethod.original": "",
+          "budget.original": "",
+          "budget": 180000
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "e24bead2-16a4-48c1-8e59-24c8cd3a680c",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "getPropertyConfig"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "49581eb4-1638-4d0b-98e9-6d4dd5937e38"
+}
